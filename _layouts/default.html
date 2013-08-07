@@ -6,7 +6,6 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
 
-    <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
     <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>
@@ -14,33 +13,8 @@
     <![endif]-->
   </head>
   <body>
-
+    {% include navbar.html %}
     <div class="container">
-      <div class="site">
-        <div class="header">
-          <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          <a class="extra" href="/">home</a>
-        </div>
-
-        {{ content }}
-
-        <div class="footer">
-          <div class="contact">
-            <p>
-            Your Name<br />
-            What You Are<br />
-            your@email.com
-            </p>
-          </div>
-          <div class="contact">
-            <p>
-            <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-            <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> <!-- /container -->
-
+    </div>
   </body>
 </html>

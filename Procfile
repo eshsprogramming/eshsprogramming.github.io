@@ -1,2 +1,2 @@
-jekyll: jekyll serve
-compass: compass watch .
+compass: compass watch
+jekyll: jekyll serve --watch
