@@ -1,2 +1,23 @@
+@import "compass";
 @import "compass/reset";
+@import "compass/css3/shared";
 @import "bootstrap";
+
+$white: rgb(250, 250, 250);
+
+.splash {
+  @include border-radius(0px);
+  width: 100%;
+  background-image: url('/images/splash.jpg');
+  background-size: 100%;
+  min-height: 500px;
+  position: relative;
+  h1 {
+    $size: 96px;
+    font-size: $size;
+    color: $white;
+    position: absolute;
+    top: 50%;
+    margin-top: -$size / 2;
+  }
+}

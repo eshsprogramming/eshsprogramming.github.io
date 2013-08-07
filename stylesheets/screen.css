@@ -5255,3 +5255,24 @@ td.visible-print {
     display: none !important;
   }
 }
+/* line 8, ../sass/screen.scss */
+.splash {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+  background-image: url("/images/splash.jpg");
+  background-size: 100%;
+  min-height: 500px;
+  position: relative;
+}
+/* line 15, ../sass/screen.scss */
+.splash h1 {
+  font-size: 96px;
+  color: #fafafa;
+  position: absolute;
+  top: 50%;
+  margin-top: -48px;
+}
