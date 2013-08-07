@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Let's try this!
+title: ESHS Programming
 ---
 
 {% include splash.html %}
